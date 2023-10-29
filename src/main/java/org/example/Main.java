@@ -1,5 +1,6 @@
 package org.example;
 
+import DesignPattern.Factory.ClientApplication;
 import DesignPattern.Prototype.Runner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -7,7 +8,7 @@ import DesignPattern.Prototype.Runner;
 public class Main {
     public static void main(String[] args) {
 
-        Runner run = new Runner();
-        run.Main();
+        ClientApplication run = new ClientApplication();
+        run.getProducts();
     }
 }

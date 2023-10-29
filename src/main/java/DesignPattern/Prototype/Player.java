@@ -8,6 +8,7 @@ public class Player implements ICloneable{
         Shirt = shirt;
         Trouser = trouser;
         Shoe = shoe;
+
     }
 
     public String Playername;
